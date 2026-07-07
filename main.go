@@ -54,10 +54,10 @@ func main() {
 		os.Exit(1)
 	}
 
-	//if impersonate != "" {
-	//	fmt.Println("[-] You must choose a user to impersonate")
-	//	os.Exit(1)
-	//}
+	if impersonate != "" {
+		fmt.Println("[-] You must choose a user to impersonate")
+		os.Exit(1)
+	}
 
 	target, creds, err := session.ParseTargetString(opts.TargetStr)
 	if err != nil {
