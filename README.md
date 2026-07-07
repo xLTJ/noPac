@@ -8,6 +8,8 @@ The -shell flag just spawns impacket-smbexec. You can also just use the ccache f
 
 Made this primarely to test out the new Go implementation of Impacket (gopacket) and its pretty cool honestly, and one step towards never having to touch python ever which is always nice.
 
+Also there is no cleanup, I might add that later idk.
+
 # Usage
 ```
 Usage: ./nopac [options] target
